@@ -1,0 +1,21 @@
+.league-style{
+    display: grid;
+    position: relative;
+    grid-template-columns:repeat(3, 1fr);
+    margin: 3rem 5rem;
+    padding: 1rem;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+.home-style{
+    background: #0E0A2A;
+    overflow: hidden;
+}
+.league-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
