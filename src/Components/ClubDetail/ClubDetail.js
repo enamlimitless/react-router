@@ -14,13 +14,13 @@ const ClubDetail = () => {
 
     const {idLeague} = useParams();
 
-    const {strFanart2, strBadge, dateFirstEvent, strLeague, strCountry, strGender, strSport, strDescriptionEN, strDescriptionFR,strFacebook, strTwitter, strYoutube} = club || {};
+    const {strBadge, dateFirstEvent, strLeague, strCountry, strGender, strSport, strDescriptionEN, strDescriptionFR} = club || {};
 
     useEffect(() =>{
         fetch(`https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`)
         .then(res => res.json())
         .then(data => setClub(data.leagues[0]))
-        console.log('Hello',club)
+        // console.log(idLeague,club)
     },[idLeague])
 
 
@@ -63,9 +63,9 @@ const ClubDetail = () => {
                   <div className="container">
                   <div className="row">
                    <div className="social-links">
-                    <a href={strFacebook} target="_blank"><img src={facebook} alt=""/></a>
-                    <a href={strTwitter} target="_blank"><img src={twitter} alt=""/></a>
-                    <a href={strYoutube} target="_blank"><img src={youtube} alt=""/></a>
+                    <a href="https://facebook.com/"><img src={facebook} alt=""/></a>
+                    <a href="https://twitter.com/"><img src={twitter} alt=""/></a>
+                    <a href="https://youtube.com/"><img src={youtube} alt=""/></a>
                    </div>
                    </div>
                   </div>

@@ -12,7 +12,7 @@ const Club = (props) => {
         const url = `club/${idLeague}`;
         history.push(url);
     }
-console.log(props.league.idLeague)
+// console.log(props.league.idLeague)
     return (
         <div>
             <h2 className="card-title">{strLeague}</h2>
