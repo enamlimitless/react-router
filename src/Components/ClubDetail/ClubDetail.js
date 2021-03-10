@@ -21,7 +21,7 @@ const ClubDetail = () => {
         .then(res => res.json())
         .then(data => setClub(data.leagues[0]))
         console.log('Hello',club)
-    },[])
+    },[idLeague])
 
 
     return (
