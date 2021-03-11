@@ -10,8 +10,6 @@ import NoMatch from './Components/NoMatch/NoMatch';
 function App() {
   return (
     <div>
-      
-      {/* <ClubDetail></ClubDetail> */}
       <Router>
         <Switch>
         <Route path='/club/:idLeague'>

@@ -15,8 +15,8 @@ const Club = (props) => {
 // console.log(props.league.idLeague)
     return (
         <div className="club-style">
-            <h2 className="card-title">{strLeague}</h2>
-            <p className="card-description">Sports Type: {strSport}</p>
+            <h3 className="card-title">{strLeague}</h3>
+            <h5 className="card-description">Sports Type: {strSport}</h5>
             <button onClick={() => showDetail(idLeague)} className="btn btn-primary">Explore <FontAwesomeIcon icon={faArrowRight} /></button>
         </div>
     );

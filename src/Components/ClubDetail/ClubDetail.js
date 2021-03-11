@@ -2,11 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './ClubDetail.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar, faFlag,faFutbol,faMars} from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import banner from '../../Photo/banner.jpg';
 import team from '../../Photo/Rectangle 28.png';
-import facebook from '../../Icon/Facebook.png';
-import twitter from '../../Icon/Twitter.png';
-import youtube from '../../Icon/YouTube.png';
 import { useParams } from 'react-router';
 
 const ClubDetail = () => {
@@ -63,9 +61,12 @@ const ClubDetail = () => {
                   <div className="container">
                   <div className="row">
                    <div className="social-links">
-                    <a href="https://facebook.com/"><img src={facebook} alt=""/></a>
-                    <a href="https://twitter.com/"><img src={twitter} alt=""/></a>
-                    <a href="https://youtube.com/"><img src={youtube} alt=""/></a>
+                    <a href="https://facebook.com/"><FontAwesomeIcon icon={faFacebook} /></a>
+                    <a href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /></a>
+                    <a href="https://youtube.com/"><FontAwesomeIcon icon={faYoutube} /></a>
+                   </div>
+                   <div className="author">
+                       <p>Copyright © 2021 by <a href="https://facebook.com/enamaulhaquebrown">Enamul Haque Brown</a></p>
                    </div>
                    </div>
                   </div>

@@ -1,3 +1,5 @@
+h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;}
+p{font-family: 'Poppins', sans-serif;}
 .league-title{
     position: absolute;
     top: 50%;
@@ -16,7 +18,7 @@
     text-align: center;
 }
 .home-style{
-    background: #0E0A2A;
+    background: #1A1A1C;
     overflow: hidden;
 }
 

@@ -1,3 +1,5 @@
+h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;}
+p{font-family: 'Poppins', sans-serif;}
 .nomatch{
     background: rgb(248, 235, 56);
     height: 100vh;
