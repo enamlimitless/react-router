@@ -25,7 +25,21 @@ const Leagues = () => {
             {
                 leagues.map(league => <Club league={league}></Club>)
             }
-            </div>          
+            </div>
+            <footer>
+                  <div className="container">
+                  <div className="row">
+                   <div className="social-links">
+                    <a href="https://facebook.com/"><FontAwesomeIcon icon={faFacebook} /></a>
+                    <a href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /></a>
+                    <a href="https://youtube.com/"><FontAwesomeIcon icon={faYoutube} /></a>
+                   </div>
+                   <div className="author">
+                       <p>Copyright © 2021 by <a href="https://facebook.com/enamaulhaquebrown">Enamul Haque Brown</a></p>
+                   </div>
+                   </div>
+                  </div>
+               </footer>          
         </div>
     );
 };
