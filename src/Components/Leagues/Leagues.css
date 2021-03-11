@@ -1,17 +1,3 @@
-.league-style{
-    display: grid;
-    position: relative;
-    grid-template-columns:repeat(3, 1fr);
-    margin: 3rem 5rem;
-    padding: 1rem;
-    background: #fff;
-    overflow: hidden;
-    text-align: center;
-}
-.home-style{
-    background: #0E0A2A;
-    overflow: hidden;
-}
 .league-title{
     position: absolute;
     top: 50%;
@@ -19,3 +5,34 @@
     transform: translate(-50%, -50%);
     color: #fff;
 }
+.league-style{
+    display: grid;
+    position: relative;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 3rem 5rem;
+    padding: 1rem;
+    overflow: hidden;
+    text-align: center;
+}
+.home-style{
+    background: #0E0A2A;
+    overflow: hidden;
+}
+
+/* Responsive For Mobile Verson */
+@media only screen and (max-width: 768px) {
+    .league-style {
+        grid-template-columns:repeat(2, 1fr);
+        width: 100%;
+        margin: 0 auto;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .league-style {
+        grid-template-columns:repeat(1, 1fr);
+        width: 100%;
+        margin: 0 auto;
+    }
+    .league-title h1{font-size:1.5rem;}
+  }

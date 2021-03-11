@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import { useHistory } from 'react-router';
-
+import './Club.css';
 
 const Club = (props) => {
     // console.log(props.league)
@@ -14,7 +14,7 @@ const Club = (props) => {
     }
 // console.log(props.league.idLeague)
     return (
-        <div>
+        <div className="club-style">
             <h2 className="card-title">{strLeague}</h2>
             <p className="card-description">Sports Type: {strSport}</p>
             <button onClick={() => showDetail(idLeague)} className="btn btn-primary">Explore <FontAwesomeIcon icon={faArrowRight} /></button>

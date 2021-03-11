@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './ClubDetail.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFlag,faFootballBall,faRing,faSearchLocation} from '@fortawesome/free-solid-svg-icons';
+import { faCalendar, faFlag,faFutbol,faMars} from '@fortawesome/free-solid-svg-icons';
 import banner from '../../Photo/banner.jpg';
 import team from '../../Photo/Rectangle 28.png';
 import facebook from '../../Icon/Facebook.png';
@@ -37,11 +37,11 @@ const ClubDetail = () => {
                <div className="container detail">
                     <div className="row">
                         <div className="col-lg-8">
-                             <h1><FontAwesomeIcon icon={faFlag} /> {strLeague}</h1>
-                             <h5><FontAwesomeIcon icon={faSearchLocation} /> {dateFirstEvent}</h5>
+                             <h1>{strLeague}</h1>
+                             <h5><FontAwesomeIcon icon={faCalendar} /> {dateFirstEvent}</h5>
                              <h5><FontAwesomeIcon icon={faFlag} /> {strCountry}</h5>
-                             <h5><FontAwesomeIcon icon={faFootballBall} /> {strSport}</h5>
-                             <h5><FontAwesomeIcon icon={faRing} /> {strGender}</h5>
+                             <h5><FontAwesomeIcon icon={faFutbol} /> {strSport}</h5>
+                             <h5><FontAwesomeIcon icon={faMars} /> {strGender}</h5>
                         </div>
                         <div className="col-lg-4">
                             <img className="img-fluid" src={team} alt=""/>
