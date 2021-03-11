@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Club from '../Club/Club';
 import './Leagues.css';
 import banner from '../../Photo/banner.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Leagues = () => {
     const [leagues, setLeagues] = useState([]);

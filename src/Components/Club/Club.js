@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight} from '@fortawesome/free-solid-svg-icons';
 import { useHistory } from 'react-router';
 import './Club.css';
 
