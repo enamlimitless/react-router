@@ -16,7 +16,7 @@ const Club = (props) => {
     return (
         <div className="club-style">
             <h3 className="card-title">{strLeague}</h3>
-            <h5 className="card-description">Sports Type: {strSport}</h5>
+            <h5 className="card-description my-4">Sports Type: {strSport}</h5>
             <button onClick={() => showDetail(idLeague)} className="btn btn-primary">Explore <FontAwesomeIcon icon={faArrowRight} /></button>
         </div>
     );

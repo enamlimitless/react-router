@@ -5,6 +5,7 @@ import { faCalendar, faFlag,faFutbol,faMars} from '@fortawesome/free-solid-svg-i
 import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import banner from '../../Photo/banner.jpg';
 import team from '../../Photo/Rectangle 28.png';
+// import female from '../../Photo/female.png';
 import { useParams } from 'react-router';
 
 const ClubDetail = () => {
@@ -22,7 +23,12 @@ const ClubDetail = () => {
     },[idLeague])
 
 
+    // In My Api There is no Female Club So I Have No Code Conditional Format
+//    const gender = toString(strGender) === "male" ? console.log("male"): console.log("female");
+
+
     return (
+        
         <div className="fluid">
             <header className="header">
                 <img src={banner} alt=""/>
