@@ -35,10 +35,10 @@ p{font-family: 'Poppins', sans-serif;}
     margin-top: 3rem;
 }
 .social-links a{
-    font-size: 3rem;
+    font-size: 2rem;
     display: inline-block;
     margin: 1rem;
-    color: #a8255c;
+    color: #fff;
 }
 .social-links{
     text-align: center;
