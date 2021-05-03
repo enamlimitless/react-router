@@ -9,10 +9,10 @@
 *It's about a league called Fantasy Football. Where there are different clubs and they have their own information*
 
 Website Link: 
-    https://nostalgic-newton-c339ac.netlify.app
+    https://fantacyfootball.netlify.app/
 
 ### Website Preview
-  https://nostalgic-newton-c339ac.netlify.app
+  https://fantacyfootball.netlify.app/
 
 ## Technologies
 ***
